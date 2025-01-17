@@ -22,3 +22,7 @@ PriceScraperAI is a Python tool designed to scrape pricing information from comp
    ```bash
    git clone https://github.com/your-username/PriceScraperAI.git
    cd PriceScraperAI
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
