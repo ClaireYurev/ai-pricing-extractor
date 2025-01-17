@@ -19,7 +19,6 @@ FIRECRAWL_API_KEY = getpass.getpass("Enter your Firecrawl API Key: ")
 
 # Competitor sites
 competitor_sites = [
-    {"name": "NeetCode", "url": "https://neetcode.io/pro"},
     {"name": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org/geeksforgeeks-premium-subscription"},
     {"name": "LeetCode", "url": "https://leetcode.com/subscribe/"},
     {"name": "HackerRank", "url": "https://www.hackerrank.com/work/pricing"}
