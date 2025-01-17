@@ -8,13 +8,11 @@
      |  |                 |  |  |     | -======-|      |
      |  | PriceScraperAI  |  |  |     |         |      |
      |  |  Fetching Data  |  |  |/----|     ---=|      |
-     |  |                 |  |  |   ,/|==== ooo |      ;
+     |  |                 |  |  |   ,/| ooo === |      ;
      |  |                 |  |  |  // |    [486]|    ,"
      |  `-----------------'  |," .;'| |         |  ,"
      +-----------------------+  ;;  | |         |,"
         /_)______________(_/  //'   | +---------+
-   ___________________________/___  `,
-
 
 ## Overview
 PriceScraperAI is a Python tool designed to scrape pricing information from competitor websites, intelligently extract structured data using AI, and present the results in a clean, tabular format. It is built using modern libraries like Beautiful Soup, Firecrawl, Jina AI, and OpenAI's GPT API for robust data extraction and comparison.
