@@ -26,3 +26,24 @@ PriceScraperAI is a Python tool designed to scrape pricing information from comp
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+3. Usage
+   - Add your OpenAI and Mendable API keys.
+   - Update the competitor_sites list with target websites and URLs.
+   - Run the script:
+   ```bash
+   python main.py
+
+4. Example Output
+   Extracted Content Table
+   ```lua
+   +---------------+----------------+----------------------------------------------------+
+   |      Site     | Provider Name  |                 Extracted Content                  |
+   +---------------+----------------+----------------------------------------------------+
+   | LeetCode      | Beautiful Soup | {"pricing_tiers": [{"plan": "Free", "price": ...} |
+   | GeeksForGeeks | Jina AI        | {"pricing_tiers": [{"plan": "Student", "price...} |
+   +---------------+----------------+----------------------------------------------------+
+
+5. Customization
+   - Modify the competitor_sites variable to target additional websites.
+   - Adjust preprocess_content for content-specific truncation or cleaning.
